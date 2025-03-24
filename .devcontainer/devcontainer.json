@@ -1,0 +1,12 @@
+{
+    "name": "Node.js & SQLite",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "postCreateCommand": "npm install",
+    "forwardPorts": [3000],
+    "customizations": {
+      "vscode": {
+        "extensions": ["sqlite.vscode-sqlite"]
+      }
+    }
+  }
+  
